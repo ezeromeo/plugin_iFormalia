@@ -6,11 +6,14 @@
     <title>plugin | iFormalia</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-3">
         <div class="row">
-            <div class="panel w-25 ms-3 col-md-4">
+            <div class="panel mb-3 w-25 ms-3 col-md-4">
                 <div class="header ps-2 pe-2">
                     <div class="checks d-flex align-items-center justify-content-between">
                         <div class="form-check form-switch">
@@ -26,35 +29,35 @@
                           </div>
                           <img src="assets/img/logoIformalia.svg" alt="">
                     </div>
-                    <div class="pendientes mt-4">
-                        <div class="calendar d-flex align-items-center justify-content-start ms-2">
+                    <div class="pendientes mt-4 mb-3">
+                        <div class="calendar d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/calendar.svg" alt="" class="me-2">
                             <p class="text-red">KO</p>
                         </div>
-                        <div class="alumni d-flex align-items-center justify-content-start ms-2">
+                        <div class="alumni d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/alumnos.svg" alt="" class="me-2">
                             <p>14/0 Alumnos /Fin</p>
                         </div>
-                        <div class="pending d-flex align-items-center justify-content-start ms-2">
+                        <div class="pending d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/tareas.svg" alt="" class="me-2">
                             <p class="text-red ms-2">7</p><p>/12 tareas pendientes</p>
                         </div>
-                        <div class="incidents d-flex align-items-center justify-content-start ms-2">
+                        <div class="incidents d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/incidencias.svg" alt="" class="me-2">
                             <p class="text-red me-1 ms-1">2</p><p> incidencias</p>
                         </div>
-                        <div class="messages d-flex align-items-center justify-content-start ms-2">
+                        <div class="messages d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/mensajes.svg" alt="" class="me-2">
                             <p class="ms-1">2 mensajes hoy </p><p class="text-green ms-1">ok</p>
                         </div>
                     </div>
                 </div>
-                <div class="body">
+                <div class="body" style="height: 700px; overflow-y: auto;">
                     <div class="imgNewWindow d-flex align-items-center justify-content-end mt-2">
                         <img src="assets/img/newWindow.svg" alt="">
                     </div>
                     <div class="resumen w-75 ms-5 mt-2">
-                        <div class="resumenTitulo ps-2 w-100">RESUMEN</div>
+                        <div class="resumenTitulo ps-2 pt-2 pb-2 w-100">RESUMEN</div>
                         <div class="resumenTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaResumen">
@@ -63,7 +66,7 @@
                         </div>
                     </div>
                     <div class="actividad w-75 ms-5 mt-2">
-                        <div class="actividadTitulo ps-2 w-100">ACTIVIDAD</div>
+                        <div class="actividadTitulo ps-2 pt-2 pb-2 w-100">ACTIVIDAD</div>
                         <div class="actividadTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaActividad">
@@ -72,7 +75,7 @@
                         </div>
                     </div>
                     <div class="datosExtra w-75 ms-5 mt-2">
-                        <div class="datosExtraTitulo ps-2 w-100">DATOS EXTRA</div>
+                        <div class="datosExtraTitulo ps-2 pt-2 pb-2 w-100">DATOS EXTRA</div>
                         <div class="datosExtraTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaDatosExtra">
@@ -82,7 +85,7 @@
                     </div>
                 </div>
                 <div class="footer ps-2 pe-2">
-                    <div class="menu d-flex align-items-center justify-content-between">
+                    <div class="menu d-flex align-items-center justify-content-between mt-3">
                         <a href="#" class="menu-link">DATOS</a>
                         <a href="#" class="menu-link">COM</a>
                         <a href="#" class="menu-link">ALUM</a>
@@ -92,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="panel middle w-25 ms-3 col-md-4">
+            <div class="panel mb-3 middle w-25 ms-3 col-md-4">
                 <div class="header ps-2 pe-2">
                     <div class="checks d-flex align-items-center justify-content-between">
                         <div class="form-check form-switch">
@@ -108,35 +111,35 @@
                           </div>
                           <img src="assets/img/logoIformalia.svg" alt="">
                     </div>
-                    <div class="pendientes mt-4">
-                        <div class="calendar d-flex align-items-center justify-content-start ms-2">
+                    <div class="pendientes mt-4 mb-2">
+                        <div class="calendar d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/calendar.svg" alt="" class="me-2">
                             <p>9 Grupos</p><p class="ms-2">[<a class="aVer" href="#">ver</a>]</p>
                         </div>
-                        <div class="alumni d-flex align-items-center justify-content-start ms-2">
+                        <div class="alumni d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/alumnos.svg" alt="" class="me-2">
                             <p>214/<p class="text-green me-2">90</p> Alumnos /Fin</p>
                         </div>
-                        <div class="pending d-flex align-items-center justify-content-start ms-2">
+                        <div class="pending d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/tareas.svg" alt="" class="me-2">
                             <p class="text-red ms-2">7</p><p>/12 tareas pendientes</p>
                         </div>
-                        <div class="incidents d-flex align-items-center justify-content-start ms-2">
+                        <div class="incidents d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/incidencias.svg" alt="" class="me-2">
                             <p class="text-red me-1 ms-1">2</p><p> incidencias</p>
                         </div>
-                        <div class="messages d-flex align-items-center justify-content-start ms-2">
+                        <div class="messages d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/mensajes.svg" alt="" class="me-2">
                             <p class="ms-1">2 mensajes hoy </p><p class="text-green ms-1">ok</p>
                         </div>
                     </div>
                 </div>
-                <div class="body">
+                <div class="body" style="height: 700px; overflow-y: auto;">
                     <div class="imgNewWindow d-flex align-items-center justify-content-end mt-2">
                         <img src="assets/img/newWindow.svg" alt="">
                     </div>
                     <div class="resumen w-75 ms-5 mt-2">
-                        <div class="resumenTitulo ps-2 w-100">RESUMEN</div>
+                        <div class="resumenTitulo ps-2 pt-2 pb-2 w-100">RESUMEN</div>
                         <div class="resumenTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaResumenSegundoPanel">
@@ -145,7 +148,7 @@
                         </div>
                     </div>
                     <div class="actividad w-75 ms-5 mt-2">
-                        <div class="actividadTitulo ps-2 w-100">ACTIVIDAD</div>
+                        <div class="actividadTitulo ps-2 pt-2 pb-2 w-100">ACTIVIDAD</div>
                         <div class="actividadTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaActividadSegundoPanel">
@@ -154,7 +157,7 @@
                         </div>
                     </div>
                     <div class="datosExtra w-75 ms-5 mt-2">
-                        <div class="datosExtraTitulo ps-2 w-100">DATOS EXTRA</div>
+                        <div class="datosExtraTitulo ps-2 pt-2 pb-2 w-100">DATOS EXTRA</div>
                         <div class="datosExtraTexto">
                             <table class="table table-borderless">
                                 <tbody id="tablaDatosExtraSegundoPanel">
@@ -164,7 +167,7 @@
                     </div>
                 </div>
                 <div class="footer ps-2 pe-2">
-                    <div class="menu d-flex align-items-center justify-content-between">
+                    <div class="menu d-flex align-items-center justify-content-between mt-3">
                         <a href="#" class="menu-link">DATOS</a>
                         <a href="#" class="menu-link">COM</a>
                         <a href="#" class="menu-link">ALUM</a>
@@ -174,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="panel end w-25 ms-3 col-md-4">
+            <div class="panel mb-3 end w-25 ms-3 col-md-4">
                 <div class="header ps-2 pe-2">
                     <div class="checks d-flex align-items-center justify-content-between">
                         <div class="form-check form-switch">
@@ -191,34 +194,34 @@
                           <img src="assets/img/logoIformalia.svg" alt="">
                     </div>
                     <div class="pendientes mt-4">
-                        <div class="calendar d-flex align-items-center justify-content-start ms-2">
+                        <div class="calendar d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/calendar.svg" alt="" class="me-2">
                             <p>9 Grupos</p><p class="ms-2">[<a class="aVer" href="#">ver</a>]</p>
                         </div>
-                        <div class="alumni d-flex align-items-center justify-content-start ms-2">
+                        <div class="alumni d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/alumnos.svg" alt="" class="me-2">
                             <p>214/<p class="text-green me-2">90</p> Alumnos /Fin</p>
                         </div>
-                        <div class="pending d-flex align-items-center justify-content-start ms-2">
+                        <div class="pending d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/tareas.svg" alt="" class="me-2">
                             <p class="text-red ms-2">7</p><p>/12 tareas pendientes</p>
                         </div>
-                        <div class="incidents d-flex align-items-center justify-content-start ms-2">
+                        <div class="incidents d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/incidencias.svg" alt="" class="me-2">
                             <p class="text-red me-1 ms-1">2</p><p> incidencias</p>
                         </div>
-                        <div class="messages d-flex align-items-center justify-content-start ms-2">
+                        <div class="messages d-flex align-items-center justify-content-start ms-2 mb-2">
                             <img src="assets/img/mensajes.svg" alt="" class="me-2">
                             <p class="ms-1">2 mensajes hoy </p><p class="text-green ms-1">ok</p>
                         </div>
                     </div>
                 </div>
-                <div class="body">
+                <div class="body" style="height: 700px; overflow-y: auto;">
                     <div class="imgNewWindow d-flex align-items-center justify-content-end mt-2">
                         <img src="assets/img/newWindow.svg" alt="">
                     </div>
                     <div class="grupo1 w-75 ms-5 mt-2">
-                        <div class="grupo1Titulo ps-2 w-100">​Grupo B23222024-003-001</div>
+                        <div class="grupo1Titulo ps-2 pt-2 pb-2 w-100">​Grupo B23222024-003-001</div>
                         <div class="grupo1Texto">
                             <table class="table table-borderless">
                                 <tbody id="tablaGrupo1">
@@ -227,7 +230,7 @@
                         </div>
                     </div>
                     <div class="grupo2 w-75 ms-5 mt-2">
-                        <div class="grupo2Titulo ps-2 w-100">Grupo B23222024-003-002</div>
+                        <div class="grupo2Titulo ps-2 pt-2 pb-2 w-100">Grupo B23222024-003-002</div>
                         <div class="grupo2Texto">
                             <table class="table table-borderless">
                                 <tbody id="tablaGrupo2">
@@ -236,7 +239,7 @@
                         </div>
                     </div>
                     <div class="grupo3 w-75 ms-5 mt-2">
-                        <div class="grupo3Titulo ps-2 w-100">Grupo B23222024-003-003</div>
+                        <div class="grupo3Titulo ps-2 pt-2 pb-2 w-100">Grupo B23222024-003-003</div>
                         <div class="grupo3Texto">
                             <table class="table table-borderless">
                                 <tbody id="tablaGrupo3">
@@ -245,7 +248,7 @@
                         </div>
                     </div>
                     <div class="grupo4 w-75 ms-5 mt-2">
-                        <div class="grupo4Titulo ps-2 w-100">Grupo B23222024-003-004</div>
+                        <div class="grupo4Titulo ps-2 pt-2 pb-2 w-100">Grupo B23222024-003-004</div>
                         <div class="grupo4Texto">
                             <table class="table table-borderless">
                                 <tbody id="tablaGrupo4">
@@ -254,7 +257,7 @@
                         </div>
                     </div>
                     <div class="grupo5 w-75 ms-5 mt-2">
-                        <div class="grupo5Titulo ps-2 w-100">Grupo B23222024-003-001</div>
+                        <div class="grupo5Titulo ps-2 pt-2 pb-2 w-100">Grupo B23222024-003-001</div>
                         <div class="grupo5Texto">
                             <table class="table table-borderless">
                                 <tbody id="tablaGrupo5">
@@ -264,7 +267,7 @@
                     </div>
                 </div>
                 <div class="footer ps-2 pe-2">
-                    <div class="menu d-flex align-items-center justify-content-between">
+                    <div class="menu d-flex align-items-center justify-content-between mt-3">
                         <a href="#" class="menu-link">DATOS</a>
                         <a href="#" class="menu-link">COM</a>
                         <a href="#" class="menu-link">ALUM</a>

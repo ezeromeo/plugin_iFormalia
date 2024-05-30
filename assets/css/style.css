@@ -27,7 +27,7 @@
     background-color: #DF1517;
 }
 .radio-yellow:checked + label {
-    background-color: #3374B0;
+    background-color: #FFC737;
 }
 .radio-green:checked + label {
     background-color: #51AC34;
@@ -39,6 +39,7 @@
 
 .pendientes p{
     margin-bottom: 0;
+    font-family: Lato;
     font-size: 14px;
     font-style: normal;
     line-height: normal;
@@ -54,6 +55,12 @@
 
 .text-blue{
     color: #3374B0;
+}
+
+.text-red,
+.text-green,
+.text-blue{
+    margin-bottom: 0;
 }
 
 
@@ -101,6 +108,7 @@
 }
 
 .body{
+    font-family: Lato;
     font-size: 11px;
     font-style: normal;
     line-height: normal;
@@ -108,7 +116,40 @@
 
 .footer{
     text-align: center;
+    font-family: Lato;
     font-size: 10px;
     font-style: normal;
     line-height: normal;
+}
+
+.messages{
+    margin-bottom: 20px;
+}
+
+.celdaTexto{
+    font-family: Lato;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+::-webkit-scrollbar-button {
+    display: none;
 }
