@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>plugin | iFormalia</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,57 +15,57 @@
         <div class="row">
             <div class="d-flex align-items-center justify-content-end ms-4">
                 <div class="images d-flex align-items-between justify-content-center flex-column">
-                    <img src="assets/img/header.png" alt="">
-                    <img src="assets/img/imagenIzquierda.svg" alt="">
+                    <img src="../../assets/img/header.png" alt="">
+                    <img src="../../assets/img/imagenIzquierda.svg" alt="">
                 </div>
-                <div class="panel mb-3 middle w-25 ms-3 col-md-4">
+                <div class="panel mb-5 w-25 ms-3 col-md-4">
                     <div class="header ps-2 pe-2">
                         <div class="checks d-flex align-items-center justify-content-between">
                             <div class="form-check form-switch">
                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                               </div>
                               <div class="radio-toolbar text-center mt-2 d-flex align-items-center justify-content-center">
-                                <input type="radio" id="radioRed2" name="semaforo2" class="radio-red" value="rojo">
-                                <label class="me-1" for="radioRed2"></label>                    
-                                <input type="radio" id="radioYellow2" name="semaforo2" class="radio-yellow" value="amarillo">
-                                <label class="me-1" for="radioYellow2"></label>                    
-                                <input type="radio" id="radioGreen2" name="semaforo2" class="radio-green" value="verde">
-                                <label for="radioGreen2"></label>
+                                <input type="radio" id="radioRed" name="semaforo" class="radio-red" value="rojo">
+                                <label class="me-1" for="radioRed"></label>                    
+                                <input type="radio" id="radioYellow" name="semaforo" class="radio-yellow" value="amarillo">
+                                <label class="me-1" for="radioYellow"></label>                    
+                                <input type="radio" id="radioGreen" name="semaforo" class="radio-green" value="verde">
+                                <label for="radioGreen"></label>
                               </div>
-                              <img src="assets/img/logoIformalia.svg" alt="">
+                              <img src="../../assets/img/logoIformalia.svg" alt="">
                         </div>
-                        <div class="pendientes mt-4 mb-2">
+                        <div class="pendientes mt-4 mb-3">
                             <div class="calendar d-flex align-items-center justify-content-start ms-2 mb-2">
-                                <img src="assets/img/calendar.svg" alt="" class="me-2">
-                                <p>9 Grupos</p><p class="ms-2">[<a class="aVer" href="assets/pages/panel2.html">ver</a>]</p>
+                                <img src="../../assets/img/calendar.svg" alt="" class="me-2">
+                                <p class="text-red">KO</p>
                             </div>
                             <div class="alumni d-flex align-items-center justify-content-start ms-2 mb-2">
-                                <img src="assets/img/alumnos.svg" alt="" class="me-2">
-                                <p>214/<p class="text-green me-2">90</p> Alumnos /Fin</p>
+                                <img src="../../assets/img/alumnos.svg" alt="" class="me-2">
+                                <p>14/0 Alumnos /Fin</p>
                             </div>
                             <div class="pending d-flex align-items-center justify-content-start ms-2 mb-2">
-                                <img src="assets/img/tareas.svg" alt="" class="me-2">
+                                <img src="../../assets/img/tareas.svg" alt="" class="me-2">
                                 <p class="text-red ms-2">7</p><p>/12 tareas pendientes</p>
                             </div>
                             <div class="incidents d-flex align-items-center justify-content-start ms-2 mb-2">
-                                <img src="assets/img/incidencias.svg" alt="" class="me-2">
+                                <img src="../../assets/img/incidencias.svg" alt="" class="me-2">
                                 <p class="text-red me-1 ms-1">2</p><p> incidencias</p>
                             </div>
                             <div class="messages d-flex align-items-center justify-content-start ms-2 mb-2">
-                                <img src="assets/img/mensajes.svg" alt="" class="me-2">
+                                <img src="../../assets/img/mensajes.svg" alt="" class="me-2">
                                 <p class="ms-1">2 mensajes hoy </p><p class="text-green ms-1">ok</p>
                             </div>
                         </div>
                     </div>
                     <div class="body" style="height: 700px; overflow-y: auto;">
                         <div class="imgNewWindow d-flex align-items-center justify-content-end mt-2">
-                            <img src="assets/img/newWindow.svg" alt="">
+                            <img src="../../assets/img/newWindow.svg" alt="">
                         </div>
                         <div class="resumen m-3 mt-2">
                             <div class="resumenTitulo ps-2 pt-2 pb-2 w-100">RESUMEN</div>
                             <div class="resumenTexto">
                                 <table class="table table-borderless">
-                                    <tbody id="tablaResumenSegundoPanel">
+                                    <tbody id="tablaResumen">
                                     </tbody>
                                 </table>
                             </div>
@@ -74,7 +74,7 @@
                             <div class="actividadTitulo ps-2 pt-2 pb-2 w-100">ACTIVIDAD</div>
                             <div class="actividadTexto">
                                 <table class="table table-borderless">
-                                    <tbody id="tablaActividadSegundoPanel">
+                                    <tbody id="tablaActividad">
                                     </tbody>
                                 </table>
                             </div>
@@ -83,7 +83,7 @@
                             <div class="datosExtraTitulo ps-2 pt-2 pb-2 w-100">DATOS EXTRA</div>
                             <div class="datosExtraTexto">
                                 <table class="table table-borderless">
-                                    <tbody id="tablaDatosExtraSegundoPanel">
+                                    <tbody id="tablaDatosExtra">
                                     </tbody>
                                 </table>
                             </div>
@@ -105,16 +105,7 @@
         </div>
     </div>
     
-    <script src="js/script.js"></script>
+    <script src="../../js/panel2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

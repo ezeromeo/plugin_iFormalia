@@ -153,3 +153,142 @@
 ::-webkit-scrollbar-button {
     display: none;
 }
+
+.icons{
+    width: fit-content;
+}
+
+header{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subheader{
+    background: var(--azul, #1791C9);
+    padding-left: 10px;
+    height: 26px;
+
+}
+
+.subheader h4{
+    color: var(--blanco, #FFF);
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu2,
+.menu1,
+.menu3,
+.menu4,
+.menu5,
+.menu6,
+.menu7,
+.menu8,
+.menu9,
+.menu10 {
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.menu2 p,
+.menu1,
+.menu3 p,
+.menu4 p,
+.menu5 p,
+.menu6 p,
+.menu7 p,
+.menu8 p,
+.menu9 p,
+.menu10 p {
+    margin-bottom: 5px;
+    color: var(--gris, #636363);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+aside{
+    width: 205px;
+}
+
+.asideSearch input{
+    border-radius: 2px;
+    border: 0.4px solid #D9D9D9;
+    background: var(--blanco, #FFF);
+    width: 150px;
+    height: 17px;
+    padding: 0px 4px;
+}
+
+.asideSearch input::placeholder{
+    color: #A1A1A1;
+    font-family: Lato;
+    font-size: 8px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-body{
+    background-color: #F2F2F2 !important;
+    border: none !important;
+    width: 205px;
+}
+
+.asideSearch{
+    width: 15%;
+    background-color: #1791C9;
+    width: 203px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-body li{
+    color: var(--gris, #636363);
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-tabs .nav-link{
+    border: none !important;
+    margin-bottom: 0 !important;
+}
+
+.nav-tabs{
+    border: none !important;
+}
+
+.nav-tabs .nav-link.active{
+    color: var(--azul, #1791C9) !important;
+    font-family: Lato !important;
+    font-size: 10px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    text-decoration: underline;
+}
+
+.nav-tabs .nav-link{
+    color: var(--gris, #636363);
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imgIzq{
+    margin-top: -20px;
+    z-index: -1;
+}
