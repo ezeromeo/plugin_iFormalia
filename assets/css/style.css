@@ -63,18 +63,6 @@
     margin-bottom: 0;
 }
 
-
-.resumen,
-.actividad,
-.datosExtra,
-.grupo1,
-.grupo2,
-.grupo3,
-.grupo4,
-.grupo5 {
-    border: 1px solid rgba(223, 223, 223, 0.56);
-}
-
 .resumen td,
 .actividad td,
 .datosExtra td,
@@ -124,10 +112,7 @@
     line-height: normal;
 }
 
-.bodyPanel3{
-    height: 600px;
-    overflow-y: auto;
-}
+
 
 .footer{
     text-align: center;
@@ -135,7 +120,6 @@
     font-size: 14px;
     font-style: normal;
     line-height: normal;
-    margin-top: 100%;
 }
 
 .messages{
@@ -256,13 +240,65 @@ header{
 
 .resumenTexto,
 .actividadTexto,
-.datosExtraTexto,
+.datosExtraTexto
+{
+    overflow-y: auto;
+    height: 170px;
+}
+
+.resumenTextoSegundoPanel,
+.actividadTextoSegundoPanel,
+.datosExtraTextoSegundoPanel{
+    overflow-y: auto;
+    height: 170px;
+}
+
 .grupo1Texto,
 .grupo2Texto,
 .grupo3Texto,
 .grupo4Texto,
-.grupo5Texto
+.grupo5Texto {
+    overflow-y: auto;
+    height: 170px;
+}
+
+.resumenSegundoPanel,
+.actividadSegundoPanel,
+.datosExtraSegundoPanel{
+    border: 1px solid rgba(223, 223, 223, 0.56);
+    height: 270px;
+}
+
+.resumen,
+.actividad,
+.datosExtra
 {
-    max-height: 130px;
+    border: 1px solid rgba(223, 223, 223, 0.56);
+    height: 270px;
+}
+
+.grupo1,
+.grupo2,
+.grupo3,
+.grupo4,
+.grupo5 {
+    border: 1px solid rgba(223, 223, 223, 0.56);
+    height: 150px;
+}
+
+.panel2{
+    height: auto;
+}
+
+.footerSegundoPanel{
+    padding-top: 50px;
+}
+
+.footerTercerPanel{
+    padding-top: 50px;
+}
+
+.bodyPanel3{
+    height: auto;
     overflow-y: auto;
 }
