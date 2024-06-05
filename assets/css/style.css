@@ -40,7 +40,6 @@
 .pendientes p{
     margin-bottom: 0;
     font-family: Lato;
-    font-size: 14px;
     font-style: normal;
     line-height: normal;
 }
@@ -73,6 +72,17 @@
 .grupo4,
 .grupo5 {
     border: 1px solid rgba(223, 223, 223, 0.56);
+}
+
+.resumen td,
+.actividad td,
+.datosExtra td,
+.grupo1 td,
+.grupo2 td,
+.grupo3 td,
+.grupo4 td,
+.grupo5 td {
+    padding-bottom: 0.1rem !important;
 }
 
 .resumenTitulo,
@@ -109,7 +119,6 @@
 
 .body{
     font-family: Lato;
-    font-size: 11px;
     font-style: normal;
     line-height: normal;
 }
@@ -117,7 +126,7 @@
 .footer{
     text-align: center;
     font-family: Lato;
-    font-size: 10px;
+    font-size: 14px;
     font-style: normal;
     line-height: normal;
 }
@@ -131,17 +140,19 @@
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 4px;
 }
 
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
+    border-radius: 40px;
 }
 
 
 ::-webkit-scrollbar-thumb {
     background: #888;
+    border-radius: 20px;
 }
 
 
@@ -174,63 +185,6 @@ header{
     font-family: Lato;
     font-size: 11px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.menu2,
-.menu1,
-.menu3,
-.menu4,
-.menu5,
-.menu6,
-.menu7,
-.menu8,
-.menu9,
-.menu10 {
-    cursor: pointer;
-    width: fit-content;
-    margin-left: 10px;
-}
-
-.menu2 p,
-.menu1,
-.menu3 p,
-.menu4 p,
-.menu5 p,
-.menu6 p,
-.menu7 p,
-.menu8 p,
-.menu9 p,
-.menu10 p {
-    margin-bottom: 5px;
-    color: var(--gris, #636363);
-    font-family: Lato;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-left: 10px;
-}
-
-aside{
-    width: 205px;
-}
-
-.asideSearch input{
-    border-radius: 2px;
-    border: 0.4px solid #D9D9D9;
-    background: var(--blanco, #FFF);
-    width: 150px;
-    height: 17px;
-    padding: 0px 4px;
-}
-
-.asideSearch input::placeholder{
-    color: #A1A1A1;
-    font-family: Lato;
-    font-size: 8px;
-    font-style: italic;
     font-weight: 700;
     line-height: normal;
 }
